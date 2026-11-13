@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-11-12T09:37:48",
+  "drug_total": 108,
+  "drug_class_correct": 108,
+  "drug_fields_correct": 108,
+  "drug_summary_correct": 108,
+  "case_total": 5,
+  "case_correct": 5,
+  "error_cases_compared": [],
+  "normal_cases_falsely_blocked": [],
+  "extra_predictions": [],
+  "misclassified": [],
+  "field_mismatches": [],
+  "case_results": [
+    {
+      "case_id": "CASE_016",
+      "expected_status": "NEEDS_REVIEW",
+      "predicted_status": "NEEDS_REVIEW",
+      "expected_error_code": "MISSING_DRUG_ID",
+      "predicted_error_code": "MISSING_DRUG_ID",
+      "match": true,
+      "compare_called": false,
+      "message": "변경 후 처방 5번째 줄(가상 약물 E) — 약물 식별자(drug_id)가 비어 있습니다."
+    },
+    {
+      "case_id": "CASE_017",
+      "expected_status": "NEEDS_REVIEW",
+      "predicted_status": "NEEDS_REVIEW",
+      "expected_error_code": "DUPLICATE_DRUG_ID",
+      "predicted_error_code": "DUPLICATE_DRUG_ID",
+      "match": true,
+      "compare_called": false,
+      "message": "변경 후 처방 7번째 줄(가상 약물 C), 3번째 줄과 중복 — 같은 처방 단계에 같은 약물 식별자가 두 번 이상 있습니다."
+    },
+    {
+      "case_id": "CASE_018",
+      "expected_status": "NEEDS_REVIEW",
+      "predicted_status": "NEEDS_REVIEW",
+      "expected_error_code": "MISSING_DOSE_COUNT",
+      "predicted_error_code": "MISSING_DOSE_COUNT",
+      "match": true,
+      "compare_called": false,
+      "message": "변경 후 처방 2번째 줄(가상 약물 B) — 1회 복용량(dose_count)이 비어 있습니다."
+    },
+    {
+      "case_id": "CASE_019",
+      "expected_status": "NEEDS_REVIEW",
+      "predicted_status": "NEEDS_REVIEW",
+      "expected_error_code": "SCHEDULE_MISMATCH",
+      "predicted_error_code": "SCHEDULE_MISMATCH",
+      "match": true,
+      "compare_called": false,
+      "message": "변경 후 처방 4번째 줄(가상 약물 D): 하루 2회인데 복용 시점은 1개(아침) — 1일 복용 횟수와 복용 시점의 개수가 맞지 않습니다."
+    },
+    {
+      "case_id": "CASE_020",
+      "expected_status": "NEEDS_REVIEW",
+      "predicted_status": "NEEDS_REVIEW",
+      "expected_error_code": "INCOMPLETE_AFTER_LIST",
+      "predicted_error_code": "INCOMPLETE_AFTER_LIST",
+      "match": true,
+      "compare_called": false,
+      "message": "변경 후 처방: 목록 불완전으로 표시됨 — 변경 후 처방 목록이 완전한지 확인되지 않았습니다."
+    }
+  ],
+  "drug_class_accuracy": 100.0,
+  "case_accuracy": 100.0
+}

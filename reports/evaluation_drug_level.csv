@@ -1,0 +1,109 @@
+﻿case_id,drug_id,expected_class,predicted_class,class_match,expected_changed_fields,predicted_changed_fields,fields_match,expected_summary,predicted_summary,summary_match
+CASE_001,DRUG_A,변경,변경,True,dose_count,dose_count,True,1회 복용량 1정→0.5정,1회 복용량 1정→0.5정,True
+CASE_001,DRUG_B,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_001,DRUG_C,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_001,DRUG_D,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_001,DRUG_E,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_001,DRUG_F,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_002,DRUG_A,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_002,DRUG_B,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_002,DRUG_C,중단,중단,True,,,True,변경 후 처방에서 중단,변경 후 처방에서 중단,True
+CASE_002,DRUG_D,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_002,DRUG_E,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_002,DRUG_F,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_003,DRUG_A,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_003,DRUG_B,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_003,DRUG_C,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_003,DRUG_D,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_003,DRUG_E,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_003,DRUG_G,추가,추가,True,,,True,새로운 처방에 추가,새로운 처방에 추가,True
+CASE_004,DRUG_B,변경,변경,True,administration_time,administration_time,True,복용 시점 아침→저녁,복용 시점 아침→저녁,True
+CASE_004,DRUG_C,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_004,DRUG_D,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_004,DRUG_E,변경,변경,True,administration_time,administration_time,True,복용 시점 저녁→아침,복용 시점 저녁→아침,True
+CASE_004,DRUG_F,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_004,DRUG_G,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_005,DRUG_A,변경,변경,True,strength_mg,strength_mg,True,함량 10mg→5mg,함량 10mg→5mg,True
+CASE_005,DRUG_B,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_005,DRUG_C,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_005,DRUG_D,변경,변경,True,dose_count,dose_count,True,1회 복용량 1정→2정,1회 복용량 1정→2정,True
+CASE_005,DRUG_E,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_005,DRUG_F,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_005,DRUG_G,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_006,DRUG_A,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_006,DRUG_B,중단,중단,True,,,True,변경 후 처방에서 중단,변경 후 처방에서 중단,True
+CASE_006,DRUG_C,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_006,DRUG_D,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_006,DRUG_E,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_006,DRUG_F,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_006,DRUG_G,추가,추가,True,,,True,새로운 처방에 추가,새로운 처방에 추가,True
+CASE_007,DRUG_B,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_007,DRUG_C,변경,변경,True,dose_count,dose_count,True,1회 복용량 1정→0.5정,1회 복용량 1정→0.5정,True
+CASE_007,DRUG_D,변경,변경,True,frequency_per_day|administration_time,frequency_per_day|administration_time,True,1일 복용 횟수 1회→2회; 복용 시점 아침→아침·저녁,1일 복용 횟수 1회→2회; 복용 시점 아침→아침·저녁,True
+CASE_007,DRUG_E,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_007,DRUG_F,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_007,DRUG_G,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_008,DRUG_A,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_008,DRUG_B,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_008,DRUG_C,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_008,DRUG_D,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_008,DRUG_E,변경,변경,True,administration_time,administration_time,True,복용 시점 저녁→아침,복용 시점 저녁→아침,True
+CASE_008,DRUG_F,변경,변경,True,strength_mg,strength_mg,True,함량 100mg→50mg,함량 100mg→50mg,True
+CASE_008,DRUG_G,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_008,DRUG_H,추가,추가,True,,,True,새로운 처방에 추가,새로운 처방에 추가,True
+CASE_009,DRUG_A,중단,중단,True,,,True,변경 후 처방에서 중단,변경 후 처방에서 중단,True
+CASE_009,DRUG_C,중단,중단,True,,,True,변경 후 처방에서 중단,변경 후 처방에서 중단,True
+CASE_009,DRUG_D,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_009,DRUG_E,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_009,DRUG_F,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_009,DRUG_G,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_009,DRUG_H,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_009,DRUG_I,추가,추가,True,,,True,새로운 처방에 추가,새로운 처방에 추가,True
+CASE_010,DRUG_B,변경,변경,True,dose_count,dose_count,True,1회 복용량 1정→0.5정,1회 복용량 1정→0.5정,True
+CASE_010,DRUG_C,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_010,DRUG_D,변경,변경,True,administration_time,administration_time,True,복용 시점 아침→저녁,복용 시점 아침→저녁,True
+CASE_010,DRUG_E,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_010,DRUG_F,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_010,DRUG_G,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_010,DRUG_H,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_010,DRUG_I,변경,변경,True,frequency_per_day|administration_time,frequency_per_day|administration_time,True,1일 복용 횟수 1회→2회; 복용 시점 저녁→아침·저녁,1일 복용 횟수 1회→2회; 복용 시점 저녁→아침·저녁,True
+CASE_011,DRUG_A,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_011,DRUG_B,중단,중단,True,,,True,변경 후 처방에서 중단,변경 후 처방에서 중단,True
+CASE_011,DRUG_C,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_011,DRUG_D,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_011,DRUG_E,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_011,DRUG_F,변경,변경,True,dose_count,dose_count,True,1회 복용량 1정→2정,1회 복용량 1정→2정,True
+CASE_011,DRUG_G,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_011,DRUG_H,추가,추가,True,,,True,새로운 처방에 추가,새로운 처방에 추가,True
+CASE_012,DRUG_A,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_012,DRUG_B,중단,중단,True,,,True,변경 후 처방에서 중단,변경 후 처방에서 중단,True
+CASE_012,DRUG_C,변경,변경,True,dose_count,dose_count,True,1회 복용량 1정→0.5정,1회 복용량 1정→0.5정,True
+CASE_012,DRUG_D,변경,변경,True,frequency_per_day|administration_time,frequency_per_day|administration_time,True,1일 복용 횟수 1회→2회; 복용 시점 아침→아침·저녁,1일 복용 횟수 1회→2회; 복용 시점 아침→아침·저녁,True
+CASE_012,DRUG_E,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_012,DRUG_F,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_012,DRUG_G,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_012,DRUG_H,추가,추가,True,,,True,새로운 처방에 추가,새로운 처방에 추가,True
+CASE_013,DRUG_B,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_013,DRUG_C,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_013,DRUG_D,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_013,DRUG_E,중단,중단,True,,,True,변경 후 처방에서 중단,변경 후 처방에서 중단,True
+CASE_013,DRUG_F,중단,중단,True,,,True,변경 후 처방에서 중단,변경 후 처방에서 중단,True
+CASE_013,DRUG_G,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_013,DRUG_H,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_013,DRUG_I,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_013,DRUG_J,추가,추가,True,,,True,새로운 처방에 추가,새로운 처방에 추가,True
+CASE_013,DRUG_K,추가,추가,True,,,True,새로운 처방에 추가,새로운 처방에 추가,True
+CASE_014,DRUG_A,변경,변경,True,strength_mg,strength_mg,True,함량 10mg→5mg,함량 10mg→5mg,True
+CASE_014,DRUG_B,변경,변경,True,administration_time,administration_time,True,복용 시점 아침→저녁,복용 시점 아침→저녁,True
+CASE_014,DRUG_C,변경,변경,True,dose_count,dose_count,True,1회 복용량 1정→0.5정,1회 복용량 1정→0.5정,True
+CASE_014,DRUG_D,변경,변경,True,frequency_per_day|administration_time,frequency_per_day|administration_time,True,1일 복용 횟수 1회→2회; 복용 시점 아침→아침·저녁,1일 복용 횟수 1회→2회; 복용 시점 아침→아침·저녁,True
+CASE_014,DRUG_E,중단,중단,True,,,True,변경 후 처방에서 중단,변경 후 처방에서 중단,True
+CASE_014,DRUG_F,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_015,DRUG_A,중단,중단,True,,,True,변경 후 처방에서 중단,변경 후 처방에서 중단,True
+CASE_015,DRUG_B,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_015,DRUG_C,중단,중단,True,,,True,변경 후 처방에서 중단,변경 후 처방에서 중단,True
+CASE_015,DRUG_D,변경,변경,True,dose_count,dose_count,True,1회 복용량 1정→0.5정,1회 복용량 1정→0.5정,True
+CASE_015,DRUG_E,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_015,DRUG_F,변경,변경,True,frequency_per_day|administration_time,frequency_per_day|administration_time,True,1일 복용 횟수 1회→2회; 복용 시점 아침→아침·저녁,1일 복용 횟수 1회→2회; 복용 시점 아침→아침·저녁,True
+CASE_015,DRUG_G,유지,유지,True,,,True,변경 없음,변경 없음,True
+CASE_015,DRUG_H,추가,추가,True,,,True,새로운 처방에 추가,새로운 처방에 추가,True

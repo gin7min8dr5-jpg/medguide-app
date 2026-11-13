@@ -1,0 +1,21 @@
+﻿case_id,age_years,scenario_level,before_drug_count,after_drug_count,before_list_complete,after_list_complete,expected_validation_status,expected_error_code,expected_changed_drug_count,scenario_description
+CASE_001,72,단순,6,6,TRUE,TRUE,VALID,,1,A 1회 1정에서 0.5정으로 변경
+CASE_002,78,단순,6,5,TRUE,TRUE,VALID,,1,C 중단
+CASE_003,66,단순,5,6,TRUE,TRUE,VALID,,1,G 신규 추가
+CASE_004,74,단순,6,6,TRUE,TRUE,VALID,,2,"B 아침→저녁, E 저녁→아침"
+CASE_005,83,단순,7,7,TRUE,TRUE,VALID,,2,"A 함량 10→5 mg, D 1회 1→2정"
+CASE_006,69,보통,6,6,TRUE,TRUE,VALID,,2,"B 중단, G 신규 추가"
+CASE_007,77,보통,6,6,TRUE,TRUE,VALID,,2,"C 1정→0.5정, D 1일 1→2회"
+CASE_008,71,보통,7,8,TRUE,TRUE,VALID,,3,"E 저녁→아침, F 함량 100→50 mg, H 추가"
+CASE_009,80,보통,7,6,TRUE,TRUE,VALID,,3,"A,C 중단, I 추가"
+CASE_010,75,보통,8,8,TRUE,TRUE,VALID,,3,"B 1정→0.5정, D 복용 시점 변경, I 1일 1→2회"
+CASE_011,68,보통,7,7,TRUE,TRUE,VALID,,3,"B 중단, H 추가, F 1정→2정"
+CASE_012,82,복잡,7,7,TRUE,TRUE,VALID,,4,"B 중단, C 1정→0.5정, D 1일 1→2회, H 추가"
+CASE_013,73,복잡,8,8,TRUE,TRUE,VALID,,4,"E,F 중단, J,K 신규 추가"
+CASE_014,85,복잡,6,5,TRUE,TRUE,VALID,,5,"A/B/C/D 변경, E 중단"
+CASE_015,76,복잡,7,6,TRUE,TRUE,VALID,,5,"A,C 중단, D,F 변경, H 추가"
+CASE_016,70,오류 검증,6,6,TRUE,TRUE,NEEDS_REVIEW,MISSING_DRUG_ID,,변경 처방 E의 약물 식별자 누락
+CASE_017,79,오류 검증,6,7,TRUE,TRUE,NEEDS_REVIEW,DUPLICATE_DRUG_ID,,"변경 처방 C 식별자 중복, 복용량 불일치"
+CASE_018,67,오류 검증,6,6,TRUE,TRUE,NEEDS_REVIEW,MISSING_DOSE_COUNT,,변경 처방 B의 1회 복용량 누락
+CASE_019,84,오류 검증,6,6,TRUE,TRUE,NEEDS_REVIEW,SCHEDULE_MISMATCH,,"변경 처방 D의 1일 복용 횟수 2회, 복용 시점 아침만 기재"
+CASE_020,88,오류 검증,7,5,TRUE,FALSE,NEEDS_REVIEW,INCOMPLETE_AFTER_LIST,,변경 처방 A~E만 있으며 처방 목록 불완전
